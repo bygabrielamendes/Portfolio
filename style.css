@@ -7,20 +7,21 @@ body {
 
 /* CABEÇALHO COM GRADIENTE ANIMADO */
 header {
-  background: linear-gradient(-5deg, #4f65d4, #6c5ce7, #a29bfe, #4f65d4);
+  background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #0f0c29);
+  /*background: linear-gradient(-5deg, #4f65d4, #6c5ce7, #a29bfe, #4f65d4); estilo em ondas*/
   background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
+  animation: gradient 8s ease infinite;  /*alterei de 5 para 10*/
   color: white;
   text-align: center;
   padding: 40px 0;
 }
 
-/* Animação de gradiente infinito */
+/* Animação de gradiente infinito*/
 @keyframes gradient {
   0%   { background-position: 0% 50%; }
   50%  { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
-}
+} 
 
 /* FOTO DE PERFIL COM EFEITO DE GIRO */
 .foto-perfil {

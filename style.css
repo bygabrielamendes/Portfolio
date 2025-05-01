@@ -102,6 +102,6 @@ nav a.active {
 
   nav {
     flex-direction: row; /* ele controla a posição do menu*/
-    gap: 20px; 
+    gap: 20px; /* espaço entre as palavras dentro do menu*/
   }
 }

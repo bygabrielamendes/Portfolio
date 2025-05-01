@@ -10,7 +10,7 @@ header {
   background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #0f0c29);
   /*background: linear-gradient(-5deg, #4f65d4, #6c5ce7, #a29bfe, #4f65d4); estilo em ondas*/
   background-size: 400% 400%;
-  animation: gradient 8s ease infinite;  /*alterei de 5 para 10*/
+  animation: gradient 10s ease infinite;  /*alterei de 5 para 10*/
   color: white;
   text-align: center;
   padding: 40px 0;
@@ -40,13 +40,12 @@ header {
   transform: rotateY(360deg);
 }
 
-/*   MENU DE NAVEGAÇÃO */
+/*   MENU DE NAVEGAÇÃO*/
 nav {
   background-color: #8012a1;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 10px 0;
+  display: block; /* tirei do flex motivo no celular nao fica ajustavel ainda nao descobrir como ajustar*/
+  text-align: center;
+  padding: 10px;
 }
 
 nav a {
@@ -74,7 +73,6 @@ nav a.active {
 .section.active {
   display: block;
 }
-
 
 /* Padroniza títulos e parágrafos das seções */
 .container h1 {

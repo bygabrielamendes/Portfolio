@@ -53,7 +53,7 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  cursor: pointer;
+  cursor: default;
 }
 
 /* Link ativo (destacado) */
@@ -100,9 +100,8 @@ nav a.active {
     font-size: 30px;
   }
 
-  /*voltar comoestava o oyutro nav e apagar essa linha */
   nav {
-    flex-direction: row;
+    flex-direction: row; /* ele controla a posição do menu*/
     gap: 20px; 
   }
 }

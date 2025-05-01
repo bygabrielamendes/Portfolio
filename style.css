@@ -43,9 +43,10 @@ header {
 /*   MENU DE NAVEGAÇÃO*/
 nav {
   background-color: #8012a1;
-  display: block; /* tirei do flex motivo no celular nao fica ajustavel ainda nao descobrir como ajustar*/
-  text-align: center;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
 }
 
 nav a {
@@ -96,11 +97,12 @@ nav a.active {
   }
 
   h1 {
-    font-size: 10px;
+    font-size: 22px;
   }
 
+  /*voltar comoestava o oyutro nav e apagar essa linha */
   nav {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 10px; 
   }
 }

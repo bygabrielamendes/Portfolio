@@ -97,12 +97,12 @@ nav a.active {
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 30px;
   }
 
   /*voltar comoestava o oyutro nav e apagar essa linha */
   nav {
     flex-direction: row;
-    gap: 10px; 
+    gap: 20px; 
   }
 }

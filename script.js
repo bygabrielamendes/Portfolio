@@ -18,3 +18,8 @@ function mostrarSecao(secaoId) {
   // Exemplo: se clicou em "projetos", ativa o link com id="link-projetos"
   document.getElementById('link-' + secaoId).classList.add('active');
 }
+document.querySelectorAll('.icon').forEach(icon => {
+  icon.addEventListener('click', () => {
+      alert(`Você clicou no ícone de ${icon.classList[1]}`);
+  });
+});

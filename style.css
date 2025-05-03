@@ -1,11 +1,10 @@
-/*CONFIGURAÇÃO GERAL DA PÁGINA*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* CABEÇALHO COM GRADIENTE ANIMADO */
+/*GRADIENTE ANIMADO */
 header {
   background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #0f0c29);
   /*background: linear-gradient(-5deg, #4f65d4, #6c5ce7, #a29bfe, #4f65d4); estilo em ondas*/
@@ -40,7 +39,6 @@ header {
   transform: rotateY(360deg);
 }
 
-/*   MENU DE NAVEGAÇÃO*/
 nav {
   background-color: #8012a1;
   display: flex;

@@ -1,6 +1,6 @@
 // Essa função troca o conteúdo da página de acordo com o botão clicado
 function mostrarSecao(secaoId) {
-  
+
   // Esconde todas as seções da página
   document.querySelectorAll('.section').forEach(secao => {
     secao.classList.remove('active'); // Remove a classe 'active' (que deixa visível)
@@ -20,6 +20,6 @@ function mostrarSecao(secaoId) {
 }
 document.querySelectorAll('.icon').forEach(icon => {
   icon.addEventListener('click', () => {
-      alert(`Você clicou no ícone de ${icon.classList[1]}`);
+    alert(`Você clicou no ícone de ${icon.classList[1]}`);
   });
 });

@@ -6,8 +6,7 @@ body {
 
 /*GRADIENTE ANIMADO */
 header {
-  background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #0f0c29);
-  /*background: linear-gradient(-5deg, #4f65d4, #6c5ce7, #a29bfe, #4f65d4); estilo em ondas*/
+  background: linear-gradient(-25deg,#48038C,#460259,#BF4EDE,#3BA7BF,#48038C,#48038C); 
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;  /*alterei de 5 para 10*/
   color: white;
@@ -103,7 +102,7 @@ nav a.ativo {
   }
 
   nav {
-    flex-direction: row; /* USAR O FLEX PARA MENU HAMBURGUER*/
+    flex-direction: flex; /* USAR O FLEX PARA MENU HAMBURGUER*/
     gap: 20px; /* espaço entre as palavras dentro do menu*/
   }
 }

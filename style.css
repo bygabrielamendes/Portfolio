@@ -47,6 +47,15 @@ nav {
   padding: 10px 0;
 }
 
+/* CONTEÚDO PRINCIPAL */
+.container {
+  padding: 20px;
+}
+
+.secao {
+  display: none;
+}
+
 nav a {
   color: white;
   text-decoration: none;
@@ -54,23 +63,14 @@ nav a {
   cursor: default;
 }
 
-/* Link ativo (destacado) */
-nav a.active {
-  color: rgb(229, 255, 0);
-}
-
-/* CONTEÚDO PRINCIPAL */
-.container {
-  padding: 20px;
-}
-
-.section {
-  display: none;
-}
-
 /* Apenas a seção ativa fica visível */
-.section.active {
+.secao.ativo {
   display: block;
+}
+
+/* Link ativo (destacado) */
+nav a.ativo {
+  color: rgb(229, 255, 0);
 }
 
 /* Padroniza títulos e parágrafos das seções */

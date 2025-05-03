@@ -101,7 +101,7 @@ nav a.active {
   }
 
   nav {
-    flex-direction: row; /* ele controla a posição do menu*/
+    flex-direction: row; /* USAR O FLEX PARA MENU HAMBURGUER*/
     gap: 20px; /* espaço entre as palavras dentro do menu*/
   }
 }

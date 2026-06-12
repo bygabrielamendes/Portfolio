@@ -86,6 +86,16 @@ nav a.ativo {
   display: flex;
   gap: 10px;
 }
+.projeto-item img {
+  border-radius: 8px; /* Deixa as quinas suaves */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cria um efeito de profundidade */
+  margin-top: 10px; /* Dá um "respiro" entre o texto e a foto */
+  transition: transform 0.3s ease; /* Prepara para o efeito de passar o mouse */
+}
+
+.projeto-item img:hover {
+  transform: scale(1.02); /* Dá um zoom bem sutil quando o mouse passa por cima */
+}
 
 /* Responsividade para celular */
 @media (max-width: 600px) {

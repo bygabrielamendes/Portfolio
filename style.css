@@ -86,7 +86,7 @@ nav a.ativo {
   display: flex;
   gap: 10px;
 }
-.projeto-item img {
+.projeto-SiteTabuada img {
   border-radius: 8px; /* Deixa as quinas suaves */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cria um efeito de profundidade */
   margin-top: 10px; /* Dá um "respiro" entre o texto e a foto */
